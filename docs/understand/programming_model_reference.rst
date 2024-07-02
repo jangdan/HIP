@@ -175,7 +175,7 @@ Execution Model
 
 HIP programs consist of two distinct scopes:
 
-* The host-side API running on the host processor. There are to APIs available:
+* The host-side API running on the host processor. There are two APIs available:
 
   * The HIP runtime API which enables use of the single-source programming
     model.
