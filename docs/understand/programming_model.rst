@@ -122,7 +122,7 @@ Heterogeneous Programming
 
 The HIP programming model assumes two execution contexts. One is referred to as
 *host* while compute kernels execute on a *device*. These contexts have
-different capabilities, therefor slightly different rules apply. The *host*
+different capabilities, therefore slightly different rules apply. The *host*
 execution is defined by the C++ abstract machine, while *device* execution
 follows the HIP model, primarily defined by SIMT. These execution contexts in
 code are signified by the ``__host__`` and ``__device__`` decorators. There are
@@ -141,7 +141,7 @@ a few key differences between the two:
   supported by the inability of asynchronous access from the host.
 
 * Not all C++ language features map cleanly to typical device architectures,
-  some are very expensive (meaning slow) to implement on GPU devices, therefor
+  some are very expensive (meaning slow) to implement on GPU devices, therefore
   they are forbidden in device contexts to avoid users tapping into features
   that unexpectedly decimate their program's performance. Offload devices targeted
   by HIP aren't general purpose devices, at least not in the sense a CPU is.
